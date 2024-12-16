@@ -1,3 +1,8 @@
+import dibujos from "../assets/diseños (1).jpg";
+import cajas from "../assets/diseños (2).jpg";
+import globos from "../assets/diseños (3).jpg";
+import arrerglo from "../assets/diseños (4).jpg";
+
 export type MenuItem = {
   id: number;
   title: string;
@@ -41,22 +46,22 @@ export const designsData: DesignItem[] = [
   {
     id: 1,
     title: "Dibujos Artisticos para decoracion",
-    img: "../assets/diseños (1).jpg",
+    img: dibujos,
   },
   {
     id: 2,
     title: "Cajas Creativas",
-    img: "/src/assets/diseños (2).jpg",
+    img: cajas,
   },
   {
     id: 3,
     title: "Decoracion con Globos",
-    img: "/src/assets/diseños (3).jpg",
+    img: globos,
   },
   {
     id: 4,
     title: "Arreglo con globos",
-    img: "/src/assets/diseños (1).jpg",
+    img: arrerglo,
   },
   // {
   //   id: 5,
