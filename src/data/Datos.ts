@@ -41,7 +41,7 @@ export const designsData: DesignItem[] = [
   {
     id: 1,
     title: "Dibujos Artisticos para decoracion",
-    img: "/src/assets/diseños (4).jpg",
+    img: "../assets/diseños (1).jpg",
   },
   {
     id: 2,
